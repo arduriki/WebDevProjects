@@ -1,0 +1,25 @@
+/* Write your code here: */
+h1,
+h2 {
+    color: blueviolet;
+}
+
+/* Select child: has to start from the very parent */
+.box > p {
+    color: firebrick;
+}
+
+/* Descendant */
+ul li {
+    color: blue;
+}
+
+/* Chaining -> Apply where ALL selectors are true = element.class#id */
+li.done{
+    color: seagreen;
+}
+
+/* Combining Combiners */
+ul p.done {
+    font-size: 0.5rem;
+}
